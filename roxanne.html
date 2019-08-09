@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>An AMAZING Website</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </head>
+    <style>
+        h1{
+            color:aliceblue;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+            }
+        #first{color:violet;}
+        .second{color:maroon;}
+        #myHeading{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: slateblue;
+        }
+        p{
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        body{
+            background-image : url("weird.jpg");
+            font-size: 22px;
+            text-align: center;
+        }
+    </style>
+    <body>
+        <h1>Welcome to the most AMAZING website on the internet</h1>
+        <p>Hello. My name is Roxanne. I don't think I've got much to say.</p>
+        <div><img src = "davis.jpg"></div>
+        <p>This is the lead singer, <a href = "https://en.wikipedia.org/wiki/Jonathan_Davis">Jonathan Davis</a>, from the band KoRn. Alright, he may look like a druggie, but that's just his persona.</p>
+        <div><img src = "drums.jpg"></div>
+        <p>This is my drumset that I have at home. It's a white Crush set with a Gibraltar rack and Stagg cymbals.</p>
+        <p>Bruh, I'm trying so hard to write things on this website but I feel so bland.</p>
+        <img src = "jellyfish.jpg">
+        <p>The jellyfish is my friend's favorite animal.</p>
+        <h1>Another AMAZING Header</h1>
+        <p id = "first">Wowie, I forgot that I can only have one head. The head is at the top, the new tab thing. The heading is just like the paragraph, just with bigger and bolder font.</p>
+        <p>I've got 15 minutes left. Let's see if I can make the background of this website black. Ironic uwu</p>
+        <p>I give up on the black background; we're not learning it just yet.</p>
+        <p class = "second">I've just learned that I have an eighth email. Wowieee.</p>
+        <img src = "tumm.png">
+        <p class = "second">I know about TUMO because I had gone to TUMO Center in Yerevan, Armenia back when I was in seventh grade, which was four years ago.</p>
+        <p>Now I have colors, wowie.</p>
+        <h1 id = "myHeading">This is the ugliest existing website!1!1</h1>
+              <input id = "input" type = "text" placeholder="Choose A Color">
+              <button id = "changeBtn">Change Color</button>
+              <script>
+                  document.getElementById('changeBtn').addEventListener('click',function(){
+                      document.getElementById('myHeading').style.color = document.getElementById("input").value;
+                  })
+              </script>
+              <div class="alert alert-primary" role="alert">
+                Wowie, it's blue.
+              </div>
+              <div class="alert alert-secondary" role="alert">
+                Wowie, it's gray.
+              </div>
+              <div class="alert alert-success" role="alert">
+                Wowie, it's green.
+              </div>
+              <div class="alert alert-danger" role="alert">
+                Wowie, it's red.
+              </div>
+              <div class="alert alert-warning" role="alert">
+                Wowie, it's yellow.
+              </div>
+              <div class="alert alert-info" role="alert">
+                Wowie, it's teal.
+              </div>
+              <div class="alert alert-light" role="alert">
+                Wowie, it's light.
+              </div>
+              <div class="alert alert-dark" role="alert">
+                Wowie, it's dark.
+              </div>              
+        </body>
+    </html>
